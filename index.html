@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Mazbahul Islam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-animation"></div>
+
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section hero">
+        <div class="hero-content fade-up">
+            <h1>Hi, I'm Md. Mazbahul Islam 👋</h1>
+            <p>Cyber Security Enthusiast | Bug Hunter | DevOps Learner</p>
+            <button onclick="sayHello()">Explore More</button>
+        </div>
+    </section>
+
+    <section id="about" class="section glass fade-left">
+        <h2>About Me</h2>
+        <p>
+            I am a CSE student passionate about Cyber Security, DevOps, Git, GitHub,
+            and Web Development. I love learning by building projects and practicing.
+        </p>
+    </section>
+
+    <section id="projects" class="section fade-up">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="card">
+                <h3>Recon Tool</h3>
+                <p>Subdomain finder automation script for security recon.</p>
+            </div>
+            <div class="card">
+                <h3>Bug Hunting Notes</h3>
+                <p>Personal notes for vulnerability testing and writeups.</p>
+            </div>
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A modern animated portfolio using HTML, CSS and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section glass fade-right">
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button onclick="showAlert()">Send Message</button>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Md. Mazbahul Islam Portfolio | Made with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
